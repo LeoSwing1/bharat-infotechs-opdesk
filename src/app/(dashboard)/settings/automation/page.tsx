@@ -1,0 +1,1 @@
+export default function SettingsPage(){return <div><h1 className="text-2xl font-bold">Automation Settings</h1><p className="text-gray-500 mt-2">Configure OPDesk automation integration and behavior.</p></div>}

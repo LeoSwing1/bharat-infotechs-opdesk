@@ -1,0 +1,2 @@
+-- Review center is API-level aggregation; no new tables are required.
+-- This migration is intentionally a marker so deployment order remains explicit.

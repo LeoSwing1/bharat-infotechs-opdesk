@@ -1,0 +1,65 @@
+export const demoUsers = [
+  {
+    id: "u-admin",
+    organizationId: "org-demo",
+    name: "OPDesk Admin",
+    email: "admin@opdesk.local",
+    employeeCode: "BI-EMP-26-00001",
+    role: "SUPER_ADMIN",
+    status: "ACTIVE",
+  },
+  {
+    id: "u-hr",
+    organizationId: "org-demo",
+    name: "HR Manager",
+    email: "hr@opdesk.local",
+    employeeCode: "BI-EMP-26-00002",
+    role: "HR_MANAGER",
+    status: "ACTIVE",
+  },
+  {
+    id: "u-lead",
+    organizationId: "org-demo",
+    name: "Team Lead",
+    email: "lead@opdesk.local",
+    employeeCode: "BI-EMP-26-00003",
+    role: "TEAM_LEAD",
+    status: "ACTIVE",
+  },
+  {
+    id: "u-intern",
+    organizationId: "org-demo",
+    name: "Demo Intern",
+    email: "intern@opdesk.local",
+    employeeCode: "BI-INT-26-00001",
+    role: "INTERN_EMPLOYEE",
+    status: "ACTIVE",
+  },
+];
+
+export const demoTasks = [
+  {
+    id: "t1",
+    title: "Prepare internship task board",
+    assignee: "Demo Intern",
+    priority: "HIGH",
+    status: "STARTED",
+    deadline: "2026-08-25",
+  },
+  {
+    id: "t2",
+    title: "Review Team 102 daily updates",
+    assignee: "Team Lead",
+    priority: "MEDIUM",
+    status: "SUBMITTED",
+    deadline: "2026-08-24",
+  },
+  {
+    id: "t3",
+    title: "Prepare weekly management report",
+    assignee: "HR Manager",
+    priority: "URGENT",
+    status: "OVERDUE",
+    deadline: "2026-08-22",
+  },
+];

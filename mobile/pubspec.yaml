@@ -1,0 +1,32 @@
+name: opdesk_mobile
+description: OPDesk — Bharat Infotechs workforce & operations platform (mobile client).
+publish_to: "none"
+version: 0.2.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Networking — talks to the same REST API the Next.js web app uses.
+  dio: ^5.4.3
+
+  # Persists the session token (Bearer JWT) in the platform keychain /
+  # keystore instead of plain SharedPreferences.
+  flutter_secure_storage: ^9.2.2
+
+  # Simple, explicit state management — no code generation, easy to follow.
+  provider: ^6.1.2
+
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

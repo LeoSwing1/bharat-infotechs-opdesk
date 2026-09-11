@@ -1,0 +1,8 @@
+node_modules
+.next
+.env
+.env.local
+*.log
+coverage
+drizzle/meta
+.DS_Store
